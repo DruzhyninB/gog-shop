@@ -1,0 +1,18 @@
+.header {
+  background-color: #dedede;
+  & > .container {
+    height: 56px;
+    .row {
+      height: 100%;
+      .col {
+        align-items: center;
+        display: flex;
+      }
+    }
+  }
+
+  .cart-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,16 @@
+.shop {
+  background-color: #c2c2c2;
+  &-title {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 40px 0 20px;
+    line-height: 1;
+  }
+  .product-container {
+    display: flex;
+    align-items: flex-start;
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+}

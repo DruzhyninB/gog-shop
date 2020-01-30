@@ -1,0 +1,92 @@
+.product {
+  flex: 1;
+  margin: 0 10px 20px;
+  &-cover {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &-body {
+    height: 85px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    &__title {
+      text-transform: uppercase;
+      margin: 0;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 18px;
+      flex: 1;
+    }
+    &__actions {
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .button-addtocart {
+        width: 52px;
+        height: 24px;
+        padding: 0;
+        line-height: 24px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: 0;
+        border-radius: 4px;
+        transition: background-color 0.15s ease-in-out;
+        &:disabled {
+          background-color: #707070;
+          pointer-events: none;
+          color: #adadad;
+        }
+        &:hover {
+          background-color: #9fbf00;
+        }
+        &:focus,
+        &:active {
+          outline: none;
+        }
+        .price {
+          font-size: 13px;
+          font-weight: 700;
+          border-radius: 4px;
+          display: block;
+        }
+        .owned {
+          text-transform: uppercase;
+          font-size: 11px;
+          font-weight: 700;
+          border-radius: 4px;
+          line-height: 12px;
+          display: block;
+        }
+        .incart{
+          text-transform: uppercase;
+          font-size: 11px;
+          font-weight: 700;
+          border-radius: 4px;
+          line-height: 12px;
+          display: block;
+        }
+      }
+      .discount {
+        width: 44px;
+        height: 24px;
+        background-color: #00905e;
+        margin-right: 6px;
+        text-align: center;
+        color: white;
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 700;
+        border-radius: 4px;
+      }
+    }
+  }
+}
