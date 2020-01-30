@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gog-shop/static/css/main.5d9fc38a.chunk.css",
+    "main.js": "/gog-shop/static/js/main.315c9971.chunk.js",
+    "main.js.map": "/gog-shop/static/js/main.315c9971.chunk.js.map",
+    "runtime~main.js": "/gog-shop/static/js/runtime~main.b8ee74fb.js",
+    "runtime~main.js.map": "/gog-shop/static/js/runtime~main.b8ee74fb.js.map",
+    "static/css/2.20551998.chunk.css": "/gog-shop/static/css/2.20551998.chunk.css",
+    "static/js/2.c16437bc.chunk.js": "/gog-shop/static/js/2.c16437bc.chunk.js",
+    "static/js/2.c16437bc.chunk.js.map": "/gog-shop/static/js/2.c16437bc.chunk.js.map",
+    "index.html": "/gog-shop/index.html",
+    "precache-manifest.900130a309180fa122c4ea5612f69329.js": "/gog-shop/precache-manifest.900130a309180fa122c4ea5612f69329.js",
+    "service-worker.js": "/gog-shop/service-worker.js",
+    "static/css/2.20551998.chunk.css.map": "/gog-shop/static/css/2.20551998.chunk.css.map",
+    "static/css/main.5d9fc38a.chunk.css.map": "/gog-shop/static/css/main.5d9fc38a.chunk.css.map",
+    "static/media/assasins_creed.png": "/gog-shop/static/media/assasins_creed.98e7e7b8.png",
+    "static/media/deponia.png": "/gog-shop/static/media/deponia.1a35ac0c.png",
+    "static/media/neverwinter.png": "/gog-shop/static/media/neverwinter.ee3275ed.png",
+    "static/media/oddworld.png": "/gog-shop/static/media/oddworld.cb2a43a9.png",
+    "static/media/settlers.png": "/gog-shop/static/media/settlers.c8e341c4.png",
+    "static/media/witcher_cover.png": "/gog-shop/static/media/witcher_cover.0fc1d28b.png"
+  }
+}
